@@ -1,0 +1,25 @@
+If you like my free watch faces and want to encourage me to keep making them please consider a donation: https://paypal.me/soutarm/1.99usd
+
+RETROCAS-IO
+
+Re-live the 80s with this retro style LCD watch face.
+
+v1.2.0 Features:
+- dark mode (always on display preview)
+- all settings are now accessible in the app on your phone
+- minor bug fixes
+
+v1.1.0 Features:
+- toggle seconds off/on
+- toggle battery percentage/calories
+- more accurate battery indicator
+
+v1.0.0 Features:
+- "light up" background (tap the clock)
+- heart rate with blinking heart icon to show activity
+- day and date
+- time with seconds in retro LCD style
+- step count (tap to toggle between device count and adjusted count*)
+- battery meter with percentage
+
+* FitBit prefers to display adjusted count which is your device steps plus any steps synced with your account from external sources. e.g. fitness equipment such as a treadmill

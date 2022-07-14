@@ -1,0 +1,172 @@
+.background {
+  viewport-fill: black;
+  font-family: Colfax-Medium;
+  fill: black;
+}
+.face-toggle {
+  fill: blue;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  x: 0;
+  y: 0;
+}
+.bg-toggle {
+  fill: red;
+  opacity: 0;
+  width: 86%;
+  height: 70%;
+  x: 7%;
+  y: 10%;
+}
+.seconds-toggle {
+  fill: red;
+  opacity: 0;
+  width: 60;
+  height: 50;
+  x: 100%-130;
+  y: -40
+}
+.step-toggle {
+  fill: green;
+  opacity: 0;
+  width: 40%;
+  height: 60;
+  x: -10;
+  y: -50;
+}
+.batt-toggle {
+  fill: pink;
+  opacity: 0;
+  width: 40%;
+  height: 60;
+  x: 100%-190;
+  y: -50
+}
+.header {
+  font-size: 30;
+  text-anchor: middle;
+  x: 40;
+  y: 70;
+}
+.hr-icon {
+  opacity: 1;
+  x: 0;
+  y: -24;
+  width: 27;
+  height: 24;
+}
+.hr-icon-shadow {
+  opacity: 0.2;
+  x: 3;
+  y: -21;
+  width: 27;
+  height: 24;
+}
+.hr-indicator {
+  x: 36;
+  y: 0;
+}
+.hr-shadow {
+  x: 39;
+  y: 3;
+  opacity: 0.2;
+}
+.date-label {
+  text-length: 32;
+  x: 100%-80;
+  y: 0;
+  text-anchor: end;
+}
+.date-shadow {
+  text-length: 32;
+  x: 100%-77;
+  y: 3;
+  text-anchor: end;
+  opacity: 0.2;
+}
+
+.time-container {
+  x: 40;
+  y: 150;
+}
+.time {
+  height: 60;
+  width: 36;
+  x: 0;
+  y: -54;
+}
+.time-dot {
+  height: 60;
+  width: 14;
+  x: 0;
+  y: -58;
+}
+.pm-indicator {
+  x: 100%-104;
+  y: -41;
+  font-size: 16;
+}
+.pm-shadow {
+  x: 100%-102;
+  y: -39;
+  font-size: 16;
+  opacity: 0.2;
+}
+.time-s {
+  height: 38;
+  width: 22;
+  x: 0;
+  y: -32;
+  text-anchor: end;
+}
+.middle-shadow {
+  opacity: 0.2;
+}
+.footer {
+  font-size: 30;
+  text-anchor: middle;
+  x: 40;
+  y: 100%-70;
+}
+.step-count {
+  text-length: 32;
+  x: 0;
+  y: 0;
+}
+.step-shadow {
+  text-length: 32;
+  x: 3;
+  y: 3;
+  opacity: 0.2;
+}
+.cals {
+  x: 100%-160;
+  y: -32;
+  font-size: 14;
+}
+.cals-shadow {
+  x: 100%-158;
+  y: -30;
+  opacity: 0.2;
+  font-size: 14;
+}
+.batt-dot {
+  width: 8;
+  height: 12;
+  y: -47;
+  opacity: 0;
+}
+.battery-level {
+  text-length: 32;
+  x: 100%-80;
+  y: 0;
+  text-anchor: end;
+}
+.battery-shadow {
+  text-length: 32;
+  x: 100%-77;
+  y: 3;
+  text-anchor: end;
+  opacity: 0.2;
+}

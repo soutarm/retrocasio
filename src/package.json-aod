@@ -1,0 +1,28 @@
+{
+  "fitbit": {
+    "appUUID": "6e4e91c9-65db-41aa-9423-097a1c649d4f",
+    "appType": "clockface",
+    "appDisplayName": "RetrocasIO",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_aod"
+    ],
+    "buildTargets": [
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "RetrocasIO"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

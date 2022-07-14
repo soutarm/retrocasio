@@ -1,0 +1,51 @@
+<svg class="background">
+  <image id="bg-image" class="aodOff" href="bg.png" />
+  <image id="face-image" class="aodOff" href="faces/0.png" /> 
+  <rect class="face-toggle" id="face-toggle" pointer-events="visible" />
+  <rect class="bg-toggle" id="bg-toggle" pointer-events="visible" />
+  <svg class="header">
+    <image href="heart.png" class="hr-icon" id="hr-icon" />
+    <image href="heart.png" class="hr-icon-shadow" id="hr-icon-shadow" />
+    <text class="hr-indicator" id="hr-indicator" />
+    <text class="hr-shadow" id="hr-shadow" />
+    <text class="date-label" id="date-label" />
+    <text class="date-shadow" id="date-shadow" />
+  </svg>
+  <svg id="time-container" class="time-container">
+    <g id="middle">
+      <image id="time-h" class="time" href="a/0.png" />
+      <image id="time-hh" x="38" class="time" href="a/0.png" />
+      <image id="time-dot" x="76" class="time-dot" href="a/on.png" />
+      <image id="time-m" x="92" class="time" href="a/0.png" />
+      <image id="time-mm" x="130" class="time" href="a/0.png" />
+      <text class="pm-indicator" id="pm-indicator" />
+      <text class="pm-shadow" id="pm-shadow" />
+      <rect class="seconds-toggle" id="seconds-toggle" pointer-events="visible" />
+      <image id="time-s" x="174" class="time-s" href="b/0.png" />
+      <image id="time-ss" x="198" class="time-s" href="b/0.png" />
+    </g>
+    <g id="middle-shadow" class="middle-shadow">
+      <image id="time-h-shadow" x="3" y="-51" class="time" href="a/0.png" />
+      <image id="time-hh-shadow" x="41" y="-51" class="time" href="a/0.png" />
+      <image id="time-dot-shadow" x="79" y="-55" class="time-dot" href="a/on.png" />
+      <image id="time-m-shadow" x="95" y="-51" class="time" href="a/0.png" />
+      <image id="time-mm-shadow" x="133" y="-51" class="time" href="a/0.png" />
+      <image id="time-s-shadow" x="177" y="-29" class="time-s" href="b/0.png" />
+      <image id="time-ss-shadow" x="201" y="-29" class="time-s" href="b/0.png" />
+    </g>
+  </svg>
+  <svg class="footer" pointer-events="visible">
+    <rect class="step-toggle" id="step-toggle" pointer-events="visible" />
+    <text class="step-count" id="step-count" />
+    <text class="step-shadow" id="step-shadow" />
+    <text class="cals" id="cals">cals</text>
+    <text class="cals-shadow" id="cals-shadow">cals</text>
+    <rect class="batt-toggle" id="batt-toggle" pointer-events="visible" />
+    <image id="batt-25" x="182" class="batt-dot" href="battery-dot.png" />
+    <image id="batt-50" x="189" class="batt-dot" href="battery-dot.png" />
+    <image id="batt-75" x="196" class="batt-dot"href="battery-dot.png" />
+    <image id="batt-100" x="203" class="batt-dot" href="battery-dot.png" />
+    <text class="battery-level" id="battery-level" />
+    <text class="battery-shadow" id="battery-shadow" />
+  </svg>
+</svg>
